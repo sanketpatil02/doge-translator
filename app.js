@@ -4,7 +4,7 @@ var showOutput = document.querySelector("#output");
 
 btnTranslate.addEventListener("click", clickHandler);
 
-var url = "https://api.funtranslations.com/translate/doge.json;
+var url = "https://api.funtranslations.com/translate/doge.json";
 
 function getTranslationURL(text) {
     return url + "?text=" + text;
