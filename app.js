@@ -18,5 +18,6 @@ function clickHandler() {
         .then(json => {
             var translatedOutput = json.contents.translated;
             showOutput.innerText = translatedOutput;
-        })
+        }
+    )
 }
